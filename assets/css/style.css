@@ -1,0 +1,65 @@
+.main-wrap {
+    margin: 30px auto;
+    padding: 20px;
+}
+
+/* Medication Count Sheet for Controlled Medications(Table 1) */
+.medication-count-table {
+    width: 100%;
+    border: 2px solid #333;
+    border-collapse: collapse;
+}
+
+.medication-count-table th,
+.medication-count-table td {
+    border: 2px solid #333;
+    padding: 0.5rem 2rem;
+}
+
+.medication-count-table td {
+    /*white-space: nowrap;*/
+}
+
+.medication-count-table th {
+    font-weight: normal;
+}
+
+.medication-count-table td {
+    border-style: none solid;
+    vertical-align: top;
+}
+
+.medication-count-table th {
+    padding: 0.2em;
+    vertical-align: middle;
+    /*text-align: center;*/
+}
+
+.medication-count-table thead tr.title-list > th {
+    text-align: center;
+}
+/* Medication Count Sheet for Controlled Medications(Table 1) */
+
+/* Bootstrap customization for tally table design */
+.table {
+    font-size: 16px;
+}
+
+.table > thead > tr > th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #333;
+}
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    border-top: 2px solid #333;
+}
+
+.mar-table > thead > tr > th {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.mar-table > tbody > tr > td {
+    font-size: 12px;
+    font-weight: bold;
+}
